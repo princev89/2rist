@@ -121,6 +121,7 @@ LandingPageCard.defaultProps = {
   p1bath: "Family",
   viewDetails: "View Details",
   price: "$649,900",
+  cost:" 30000",
 };
 
 export default LandingPageCard;
