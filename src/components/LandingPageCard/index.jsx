@@ -11,16 +11,30 @@ const LandingPageCard = (props) => {
           alt="image"
           src={props?.image}
         />
+
         <div className="bg-gray-51 border border-red-101 border-solid flex flex-col items-start justify-start px-5 py-[30px] rounded-bl-[10px] rounded-br-[10px] w-full">
-          <div className="flex flex-col gap-[27px] items-start justify-start w-full">
+          <Text
+            className="flex-1 text-base text-gray-900 w-auto"
+            size="txtManropeSemiBold16"
+          >
+            {props?.p286162ndaveoaklone}
+          </Text>
+          <Text
+            className="flex-1 text-base text-gray-900 w-auto py-4"
+          >
+            Qutub Minar is a UNESCO World Heritage Site located in Delhi, India. It is a towering minaret that stands at a height of 73 meters (240 feet) and is one of the most iconic landmarks in the city. Construction of the Qutub Minar began in the late 12th century during the rule of Qutb-ud-din Aibak and was completed by his successor Iltutmish.
+          </Text>
+          {/* <div className="flex flex-col gap-[27px] items-start justify-start w-full">
             <div className="flex flex-row gap-3 items-center justify-start w-full">
               <Img className="h-6 w-6" src="images/img_eye.svg" alt="eye" />
+
               <Text
                 className="flex-1 text-base text-gray-900 w-auto"
                 size="txtManropeSemiBold16"
               >
                 {props?.p286162ndaveoaklone}
               </Text>
+
             </div>
             <div className="flex flex-col gap-[21px] items-start justify-start w-full">
               <div className="flex flex-row gap-10 items-center justify-between w-full">
@@ -91,7 +105,7 @@ const LandingPageCard = (props) => {
                 {props?.price}
               </Text>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
@@ -100,7 +114,7 @@ const LandingPageCard = (props) => {
 
 LandingPageCard.defaultProps = {
   image: "images/img_image_260x384.png",
-  p286162ndaveoaklone: "2861 62nd Ave, Oakland, CA 94605",
+  p286162ndaveoaklone: "Qutab Minar",
   p3bedroom: "3 Bed Room",
   bathcounter: "1 Bath",
   sqftcounter: "1,032 sqft",

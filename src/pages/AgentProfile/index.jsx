@@ -14,11 +14,11 @@ const buttonmediumOptionsList = [
 const AgentProfilePage = () => {
   const landingPageCardPropList = [
     {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
-    { image: "images/img_image_3.png" },
-    { image: "images/img_image_4.png" },
-    { image: "images/img_image_5.png" },
+    { image: "https://cdn.pixabay.com/photo/2017/04/24/07/01/qutub-minar-2255613_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2020/04/17/12/42/humayun-5055050_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2020/06/02/17/28/reflection-5251885_1280.jpg" },
+    { image: "https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+    { image: "https://images.unsplash.com/photo-1609338966656-926be552950d?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
   ];
 
   function handleNavigate() {

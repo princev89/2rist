@@ -8,8 +8,8 @@ import LandingPageHeader from "components/LandingPageHeader";
 const PropertyDetailsPage = () => {
   const landingPageCardPropList = [
     {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
+    { image: "https://cdn.pixabay.com/photo/2017/04/24/07/01/qutub-minar-2255613_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2020/04/17/12/42/humayun-5055050_1280.jpg" },
   ];
 
   return (

@@ -11,12 +11,12 @@ const LandingPagePage = () => {
   const navigate = useNavigate();
 
   const landingPageCardPropList = [
-    {},
-    { image: "images/img_image_1.png" },
-    { image: "images/img_image_2.png" },
-    { image: "images/img_image_3.png" },
-    { image: "images/img_image_4.png" },
-    { image: "images/img_image_5.png" },
+    { image: "https://cdn.pixabay.com/photo/2017/04/24/07/01/qutub-minar-2255613_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2017/04/24/07/01/qutub-minar-2255613_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2020/04/17/12/42/humayun-5055050_1280.jpg" },
+    { image: "https://cdn.pixabay.com/photo/2020/06/02/17/28/reflection-5251885_1280.jpg" },
+    { image: "https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+    { image: "https://images.unsplash.com/photo-1609338966656-926be552950d?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
   ];
   const sliderRef = React.useRef(null);
   const [sliderState, setsliderState] = React.useState(0);
@@ -48,7 +48,7 @@ const LandingPagePage = () => {
                     ad production and delivery.
                   </Text>
                 </div>
-                <div className="bg-white-A700 flex flex-col items-start justify-start p-6 sm:px-5 rounded-[16px] w-full">
+                {/* <div className="bg-white-A700 flex flex-col items-start justify-start p-6 sm:px-5 rounded-[16px] w-full">
                   <div className="flex flex-col gap-[38px] items-center justify-start w-full">
                     <div className="flex sm:flex-col flex-row gap-4 items-center justify-center w-full">
                       <Button className="bg-gray-900 cursor-pointer flex-1 font-bold py-3 rounded-[10px] text-center text-lg text-white-A700 w-full">
@@ -108,19 +108,19 @@ const LandingPagePage = () => {
                       </Button>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="flex md:flex-1 flex-col items-center justify-start w-[47%] md:w-full">
                 <Img
                   className="h-[503px] md:h-auto object-cover w-full"
-                  src="images/img_image.png"
+                  src="images/img_image.jpeg"
                   alt="image"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
+        {/* <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
           <div className="flex md:flex-col flex-row gap-6 items-center justify-center max-w-[1200px] mx-auto w-full">
             <div className="bg-red-100 flex flex-1 flex-col h-[424px] md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
               <div className="flex flex-col gap-[50px] items-start justify-start w-full">
@@ -221,42 +221,88 @@ const LandingPagePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="bg-gray-50 flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] py-[50px] w-full">
-          <div className="flex md:flex-col flex-row md:gap-10 gap-[100px] items-start justify-start max-w-[1200px] mx-auto w-full">
-            <List
-              className="md:flex-1 sm:flex-col flex-row md:gap-10 gap-[100px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 w-[73%] md:w-full"
-              orientation="horizontal"
-            >
-              <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-                <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
-                  <Img className="h-8" src="images/img_clock.svg" alt="clock" />
-                </Button>
-                <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                  <Text
-                    className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
-                    size="txtManropeExtraBold46"
-                  >
-                    $15.4M
-                  </Text>
-                  <Text
-                    className="leading-[140.00%] text-bluegray-600 text-xl tracking-[-0.40px]"
-                    size="txtManropeSemiBold20"
-                  >
-                    <>
-                      Owned from
-                      <br />
-                      Properties transactions
-                    </>
-                  </Text>
+        </div> */}
+          {/* <div className="bg-gray-50 flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] py-[50px] w-full">
+            <div className="flex md:flex-col flex-row md:gap-10 gap-[100px] items-start justify-start max-w-[1200px] mx-auto w-full">
+              <List
+                className="md:flex-1 sm:flex-col flex-row md:gap-10 gap-[100px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 w-[73%] md:w-full"
+                orientation="horizontal"
+              >
+                <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+                  <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
+                    <Img className="h-8" src="images/img_clock.svg" alt="clock" />
+                  </Button>
+                  <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+                    <Text
+                      className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                      size="txtManropeExtraBold46"
+                    >
+                      $15.4M
+                    </Text>
+                    <Text
+                      className="leading-[140.00%] text-bluegray-600 text-xl tracking-[-0.40px]"
+                      size="txtManropeSemiBold20"
+                    >
+                      <>
+                        Owned from
+                        <br />
+                        Properties transactions
+                      </>
+                    </Text>
+                  </div>
                 </div>
-              </div>
-              <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+                <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+                  <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
+                    <Img
+                      className="h-8"
+                      src="images/img_arrowdown.svg"
+                      alt="arrowdown"
+                    />
+                  </Button>
+                  <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+                    <Text
+                      className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                      size="txtManropeExtraBold46"
+                    >
+                      25K+
+                    </Text>
+                    <Text
+                      className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
+                      size="txtManropeSemiBold20"
+                    >
+                      Properties for Buy & sell Successfully
+                    </Text>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+                  <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
+                    <Img className="h-8" src="images/img_reply.svg" alt="reply" />
+                  </Button>
+                  <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+                    <Text
+                      className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                      size="txtManropeExtraBold46"
+                    >
+                      500
+                    </Text>
+                    <Text
+                      className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
+                      size="txtManropeSemiBold20"
+                    >
+                      <>
+                        Daily completed <br />
+                        transactions
+                      </>
+                    </Text>
+                  </div>
+                </div>
+              </List>
+              <div className="flex flex-1 flex-col gap-[18px] items-start justify-start w-full">
                 <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
                   <Img
                     className="h-8"
-                    src="images/img_arrowdown.svg"
-                    alt="arrowdown"
+                    src="images/img_checkmark.svg"
+                    alt="checkmark"
                   />
                 </Button>
                 <div className="flex flex-col gap-3.5 items-start justify-start w-full">
@@ -264,64 +310,18 @@ const LandingPagePage = () => {
                     className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
                     size="txtManropeExtraBold46"
                   >
-                    25K+
+                    600+
                   </Text>
                   <Text
-                    className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
+                    className="text-bluegray-600 text-xl tracking-[-0.40px] w-full"
                     size="txtManropeSemiBold20"
                   >
-                    Properties for Buy & sell Successfully
+                    Reagular Clients
                   </Text>
                 </div>
-              </div>
-              <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-                <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
-                  <Img className="h-8" src="images/img_reply.svg" alt="reply" />
-                </Button>
-                <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                  <Text
-                    className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
-                    size="txtManropeExtraBold46"
-                  >
-                    500
-                  </Text>
-                  <Text
-                    className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
-                    size="txtManropeSemiBold20"
-                  >
-                    <>
-                      Daily completed <br />
-                      transactions
-                    </>
-                  </Text>
-                </div>
-              </div>
-            </List>
-            <div className="flex flex-1 flex-col gap-[18px] items-start justify-start w-full">
-              <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
-                <Img
-                  className="h-8"
-                  src="images/img_checkmark.svg"
-                  alt="checkmark"
-                />
-              </Button>
-              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
-                <Text
-                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
-                  size="txtManropeExtraBold46"
-                >
-                  600+
-                </Text>
-                <Text
-                  className="text-bluegray-600 text-xl tracking-[-0.40px] w-full"
-                  size="txtManropeSemiBold20"
-                >
-                  Reagular Clients
-                </Text>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
         <div className="flex flex-col font-manrope items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
           <div className="flex flex-col md:gap-10 gap-[60px] md:h-auto items-start justify-start max-w-[1200px] mx-auto w-full">
             <div className="flex flex-col gap-6 items-start justify-start w-full">
@@ -330,7 +330,7 @@ const LandingPagePage = () => {
                   className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-auto"
                   size="txtManropeExtraBold36"
                 >
-                  Featured Properties
+                  Popular visit in Delhi
                 </Text>
                 <Button
                   className="common-pointer bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"
@@ -348,7 +348,7 @@ const LandingPagePage = () => {
                   </div>
                 </Button>
               </div>
-              <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-full">
+              {/* <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-full">
                 <Button className="bg-transparent cursor-pointer font-bold min-w-[159px] text-center text-gray-900 text-lg">
                   Resident Property
                 </Button>
@@ -361,7 +361,7 @@ const LandingPagePage = () => {
                 <Button className="bg-transparent cursor-pointer font-bold min-w-[180px] text-center text-gray-400 text-lg">
                   Agriculture Property
                 </Button>
-              </div>
+              </div> */}
             </div>
             <div className="flex flex-col items-start justify-start w-full">
               <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
@@ -377,7 +377,7 @@ const LandingPagePage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[120px] md:px-10 sm:px-5 w-full">
+        {/* <div className="bg-gray-51 flex flex-col font-manrope items-center justify-center p-[120px] md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-[150px] items-center justify-center max-w-[1200px] mx-auto w-full">
             <div className="flex md:flex-col flex-row md:gap-10 gap-[85px] items-center justify-start w-full">
               <div className="flex flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-full">
@@ -484,7 +484,7 @@ const LandingPagePage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col font-manrope gap-6 items-start justify-start w-full">
           <div className="flex flex-col items-center justify-center md:px-10 sm:px-5 px-[215px] w-full">
             <Slider

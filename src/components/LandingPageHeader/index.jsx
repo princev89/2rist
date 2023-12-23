@@ -14,7 +14,7 @@ const LandingPageHeader = (props) => {
                 className="text-orange-A700 text-xl w-auto"
                 size="txtMarkoOneRegular20"
               >
-                Relasto
+                2Rist
               </Text>
             </div>
             <div className="mobile-menu">
@@ -23,7 +23,7 @@ const LandingPageHeader = (props) => {
               <div></div>
             </div>
           </div>
-          <div className="flex sm:flex-1 sm:flex-col flex-row sm:hidden items-center justify-between w-[492px] sm:w-full">
+          {/* <div className="flex sm:flex-1 sm:flex-col flex-row sm:hidden items-center justify-between w-[492px] sm:w-full">
             <List
               className="sm:flex-col flex-row gap-10 grid grid-cols-3"
               orientation="horizontal"
@@ -80,7 +80,7 @@ const LandingPageHeader = (props) => {
             >
               Blog
             </Text>
-          </div>
+          </div> */}
           <div className="flex flex-row gap-10 h-[42px] md:h-auto sm:hidden items-center justify-start w-[228px]">
             <Button
               className="bg-transparent cursor-pointer flex items-center justify-center min-w-[94px]"
